@@ -2,7 +2,6 @@
 - name: Pull Docker Image from Docker Hub
   hosts: localhost
   remote_user: vivekmaltare
-  connection: local
   become: false
   tasks:
     - name: Pull Docker Image
